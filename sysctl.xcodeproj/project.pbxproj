@@ -22,6 +22,7 @@
 		69ACE2C314679CDB001D045D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69ACE2C014679CDB001D045D /* Icon.png */; };
 		69ACE2C414679CDB001D045D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69ACE2C114679CDB001D045D /* Icon@2x.png */; };
 		69ACE2C614679DD9001D045D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 69ACE2C514679DD9001D045D /* Icon-72.png */; };
+		69DEE317176AD7C9005F1231 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DEE316176AD7C9005F1231 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		69ACE2C014679CDB001D045D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		69ACE2C114679CDB001D045D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		69ACE2C514679DD9001D045D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		69DEE316176AD7C9005F1231 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		69DEE318176AD7F8005F1231 /* iOS7_iPhone5_systcl.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iOS7_iPhone5_systcl.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				6959102914652B5500CF7F8F /* Default~ipad.png */,
 				695910271465291D00CF7F8F /* Default@2x.png */,
 				69ACE2C514679DD9001D045D /* Icon-72.png */,
+				69DEE316176AD7C9005F1231 /* Default-568h@2x.png */,
+				69DEE318176AD7F8005F1231 /* iOS7_iPhone5_systcl.txt */,
 				69ACE2C014679CDB001D045D /* Icon.png */,
 				69ACE2C114679CDB001D045D /* Icon@2x.png */,
 				695910251465277500CF7F8F /* MessageUI.framework */,
@@ -174,6 +179,7 @@
 			files = (
 				6959100B146522FA00CF7F8F /* InfoPlist.strings in Resources */,
 				69591017146522FA00CF7F8F /* KKViewController_iPhone.xib in Resources */,
+				69DEE317176AD7C9005F1231 /* Default-568h@2x.png in Resources */,
 				6959101A146522FA00CF7F8F /* KKViewController_iPad.xib in Resources */,
 				695910281465291D00CF7F8F /* Default@2x.png in Resources */,
 				6959102A14652B5500CF7F8F /* Default~ipad.png in Resources */,
