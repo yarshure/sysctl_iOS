@@ -154,6 +154,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				TargetAttributes = {
+					69590FFB146522FA00CF7F8F = {
+						DevelopmentTeam = 745WQDK4L7;
+					};
+				};
 			};
 			buildConfigurationList = 69590FF6146522F900CF7F8F /* Build configuration list for PBXProject "sysctl" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -280,12 +285,13 @@
 		6959101E146522FA00CF7F8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Kong XiangBo (RWX8LR4XNX)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sysctl/sysctl-Prefix.pch";
 				INFOPLIST_FILE = "sysctl/sysctl-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "96FB77FE-8416-4E3B-B55E-D7471E10B6F4";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -293,12 +299,13 @@
 		6959101F146522FA00CF7F8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Kong XiangBo (RWX8LR4XNX)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sysctl/sysctl-Prefix.pch";
 				INFOPLIST_FILE = "sysctl/sysctl-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "96FB77FE-8416-4E3B-B55E-D7471E10B6F4";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
